@@ -8,18 +8,32 @@
     <!-- Tailwind and Daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <!-- Color -->
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        'primary_color': '#FF4240',
+                        'primary_title_color': '#131318',
+                        'primary_description_color': '#0d0d1263',
+                        'primary_background_color': '#0d0d1208',
                     }
                 }
             }
         }
     </script>
+    <!-- CSS Style-->
+    <style>
+        .manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
